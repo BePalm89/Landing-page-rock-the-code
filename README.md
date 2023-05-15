@@ -1,1 +1,1 @@
-# Landing-page-rock-thecode-
+# Landing-page-rock-the-code
