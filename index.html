@@ -4,8 +4,304 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="index.css" />
-    <title>Landing page</title>
+    <title>Landing page - Copy Nike</title>
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div id="super-header-table-mobile"></div>
+        <div id="super-header">
+          <p>Free shipping on domestic orders over $75!</p>
+          <ul>
+            <li>
+              <div class="search-input">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search..." />
+              </div>
+            </li>
+            <li>Help</li>
+            <li><i class="fa-solid fa-basket-shopping"></i></li>
+          </ul>
+        </div>
+        <div class="main-header">
+          <div class="logo-container">
+            <a href="#" class="logo">Sole&amp;Ankle</a>
+          </div>
+          <nav id="nav-bar-table-mobile" aria-label="nav-bar-table-mobile">
+            <ul>
+              <li>
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </li>
+              <li>
+                <i class="fa-solid fa-basket-shopping"></i>
+              </li>
+              <li id="menu-toggle">
+                <label class="hamburger-menu">
+                  <input type="checkbox" />
+                </label>
+                <div class="menu-container">
+                  <div id="menu">
+                    <ul>
+                      <li><a href="#" class="selected">SALE</a></li>
+                      <li><a href="#">NEW RELEASES</a></li>
+                      <li><a href="#">MEN</a></li>
+                      <li><a href="#">WOMEN</a></li>
+                      <li><a href="#">KIDS</a></li>
+                      <li><a href="#">COLLECTIONS</a></li>
+                    </ul>
+                    <ul class="marketing">
+                      <li><a href="#">Terms and Conditions</a></li>
+                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="#">Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </nav>
+          <nav id="nav-bar-desktop" aria-label="nav-bar-desktop">
+            <ul>
+              <li><a href="#" class="selected">SALE</a></li>
+              <li><a href="#">NEW RELEASES</a></li>
+              <li><a href="#">MEN</a></li>
+              <li><a href="#">WOMEN</a></li>
+              <li><a href="#">KIDS</a></li>
+              <li><a href="#">COLLECTIONS</a></li>
+            </ul>
+          </nav>
+          <div class="logo-container"></div>
+        </div>
+      </header>
+
+      <aside>
+        <div class="breadcrumb-container">
+          <p class="breadcrumb">Home / Sale / Shoes</p>
+        </div>
+        <div class="category-container">
+          <ul>
+            <li><a href="#">Lifestyle</a></li>
+            <li><a href="#">Jordan</a></li>
+            <li><a href="#" class="aside-selected">Running</a></li>
+            <li><a href="#">Basketball</a></li>
+            <li><a href="#">Training & Gym</a></li>
+            <li><a href="#">Football</a></li>
+            <li><a href="#">Skateboarding</a></li>
+            <li><a href="#">American Football</a></li>
+            <li><a href="#">Baseball</a></li>
+            <li><a href="#">Golf</a></li>
+            <li><a href="#">Tennis</a></li>
+            <li><a href="#">Athletics</a></li>
+            <li><a href="#">Walking</a></li>
+          </ul>
+        </div>
+      </aside>
+      <main>
+        <section>
+          <div class="category">
+            <div class="breadcrumb-container-tablet-mobile">
+              <p class="breadcrumb-tablet-mobile">Home / Sale / Shoes</p>
+              <h1>Running</h1>
+            </div>
+            <div class="sorting">
+              <label for="sort">Sort</label>
+              <select name="sort" id="sort">
+                <option value="newest-releases">Newest Releases</option>
+                <option value="price">Price</option>
+              </select>
+            </div>
+          </div>
+          <div class="grid-card">
+            <div class="card">
+              <div class="card-img">
+                <img src="./assets/tech-challenge.jpg" alt="tech-challenge" />
+              </div>
+              <div class="card-title">
+                <p class="info just-released">Just Released!</p>
+                <h3>NikeCourt Tech Challenge 20</h3>
+                <p>$170</p>
+              </div>
+              <div class="card-text">
+                <p>2 colors</p>
+              </div>
+              <a href="#" rel="noopener"
+                >View more <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+            <div class="card">
+              <div class="card-img">
+                <img src="./assets/metcon-5.jpg" alt="metcon-5.jpg" />
+              </div>
+              <div class="card-title">
+                <p class="info sale">Sale</p>
+                <h3>Nike Metcon 5 AMP</h3>
+                <p>$165</p>
+              </div>
+              <div class="card-text">
+                <p>1 color</p>
+              </div>
+              <a href="#" rel="noopener"
+                >View more <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+            <div class="card">
+              <div class="card-img">
+                <img src="./assets/phantom.jpg" alt="phantom" />
+              </div>
+              <div class="card-title">
+                <p class="info just-released">Just Released!</p>
+                <h3>Nike Phantom Vision</h3>
+                <p>$165</p>
+              </div>
+              <div class="card-text">
+                <p>4 colors</p>
+              </div>
+              <a href="#" rel="noopener"
+                >View more <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+            <div class="card">
+              <div class="card-img">
+                <img src="./assets/pegasus.jpg" alt="pegasus" />
+              </div>
+              <div class="card-title">
+                <h3>Nike Air Zoom Pegasus</h3>
+                <p>$165</p>
+              </div>
+              <div class="card-text">
+                <p>1 color</p>
+              </div>
+              <a href="#" rel="noopener"
+                >View more <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+            <div class="card">
+              <div class="card-img">
+                <img src="./assets/joyride.jpg" alt="joyride" />
+              </div>
+              <div class="card-title">
+                <p class="info sale">Sale</p>
+                <h3>Nike Joyride Dual Run</h3>
+                <p>$170</p>
+              </div>
+              <div class="card-text">
+                <p>2 colors</p>
+              </div>
+              <a href="#" rel="noopener"
+                >View more <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+            <div class="card">
+              <div class="card-img">
+                <img src="./assets/legend-academy.jpg" alt="legend-academy" />
+              </div>
+              <div class="card-title">
+                <p class="info sale">Sale</p>
+                <h3>Nike Tiempo Legend 8</h3>
+                <p class="line-throught">$170</p>
+              </div>
+              <div class="card-text">
+                <p>8 colors</p>
+                <p>$125</p>
+              </div>
+              <a href="#" rel="noopener"
+                >View more <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+            <div class="card">
+              <div class="card-img">
+                <img src="./assets/react-infinity.jpg" alt="react-infinity" />
+              </div>
+              <div class="card-title">
+                <h3>Nike React Infinity Pro</h3>
+                <p class="line-throught">$160</p>
+              </div>
+              <div class="card-text">
+                <p>4 colors</p>
+                <p>$145</p>
+              </div>
+              <a href="#" rel="noopener"
+                >View more <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+            <div class="card">
+              <div class="card-img">
+                <img src="./assets/phantom-flyknit.jpg" alt="phantom-flyknit" />
+              </div>
+              <div class="card-title">
+                <p class="info sale">Sale</p>
+                <h3>Nike React Phantom Run Flyknit 2</h3>
+                <p class="line-throught">$185</p>
+              </div>
+              <div class="card-text">
+                <p>4 colors</p>
+                <p>$160</p>
+              </div>
+              <a href="#" rel="noopener"
+                >View more <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+            <div class="card">
+              <div class="card-img">
+                <img src="./assets/lebron.jpg" alt="lebron" />
+              </div>
+              <div class="card-title">
+                <h3>LeBron 17</h3>
+                <p>$260</p>
+              </div>
+              <div class="card-text">
+                <p>1 color</p>
+              </div>
+              <a href="#" rel="noopener"
+                >View more <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <ul>
+          <li>
+            <a
+              href="https://www.facebook.com/claudia.palmerini.3/"
+              target="__blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/claudia-palmerini-b01a99136/"
+              target="__blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/palm_fernweh/" target="__blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/BePalm89" target="__blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+        </ul>
+        <p>Created with ❤️ by Claudia Palmerini</p>
+      </footer>
+    </div>
+  </body>
 </html>
